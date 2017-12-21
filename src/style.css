@@ -1,0 +1,154 @@
+.bg-grey {
+  background-color: grey;
+}
+
+#about {
+  padding: 50px 20px 20px 20px;
+}
+
+body {
+  position: relative;
+}
+
+nav {
+  display: flex;
+}
+
+.dropshadow {
+  -webkit-box-shadow: 0px 5px 26px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 5px 26px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 5px 26px 0px rgba(0, 0, 0, 0.25);
+}
+
+.row {
+  margin-bottom: 50px;
+}
+
+.title {
+  margin-bottom: 25px;
+}
+
+.jumbotron {
+  background-image: url("https://www.arcwebsmac.com/wp-content/themes/arcwebsmac/images/portfolio-background.png");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: white;
+  width: 100%;
+  border-radius: 0px;
+}
+
+.pic {
+  order: 0;
+  margin-bottom: -50px;
+  height: 200px;
+}
+
+.name {
+  order: 1;
+}
+
+@media screen and (max-width: 400px) {
+  .pic {
+    order: 1;
+  }
+  .name {
+    order: 2;
+  }
+  .img-fluid {}
+  .fullscreen {
+    height: 25vh;
+  }
+  nav {
+    transform: translate(0, -300px);
+    transition: transform 0.3s ease;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  nav {
+    transform: translate(0, -300px);
+  }
+}
+
+.fullscreen {
+  height: 100vh;
+  display: flex;
+}
+
+.justify-center {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.btn-orange {
+  color: #DE9151;
+}
+
+.btn-none {
+  background: none;
+  border: none;
+}
+
+button:hover {
+  color: #F45328;
+}
+
+footer {
+  /* background: #2E2E3A; */
+  color: #BBB8B2;
+}
+
+footer a {
+  color: #BBB8B2;
+}
+
+footer .row {
+  margin: 0px;
+  padding: 20px;
+  ;
+}
+
+nav a:hover {
+  color: #F45328;
+}
+
+/*.navbar-fixed-top.scrolled {
+  background-color: #383838 !important;
+  transition: background-color 200ms linear;
+}*/
+
+h2, h3, h4 {
+  /*color: #C26B41;*/
+  color: black;
+}
+
+h1 {
+  /*color: #BBB8B2;*/
+  color: black;
+}
+
+.display-1 {
+  color: #BBB8B2;
+}
+
+.bg-elegant-color-dark {
+  background-color: #2E2E3A;
+}
+
+.navbar-orange a {
+  color: #DE9151;
+}
+
+.nav-item a:hover {
+  color: #F45328;
+}
+
+.navbar-orange .active {
+  color: #F45328;
+}
