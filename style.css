@@ -39,7 +39,8 @@ body {
 }
 
 .pic {
-  order: 2;
+  order: 0;
+  margin-bottom: -50px;
 }
 
 .name {
