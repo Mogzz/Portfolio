@@ -24,8 +24,12 @@ nav {
   margin-bottom: 50px;
 }
 
+#projects {
+  margin-top: 50px;
+}
+
 .title {
-  margin-bottom: 25px;
+  margin-bottom: 125px;
 }
 
 .jumbotron {
@@ -76,7 +80,7 @@ nav {
 }
 
 .fullscreen {
-  height: 100vh;
+  height: 50vh;
   display: flex;
 }
 
